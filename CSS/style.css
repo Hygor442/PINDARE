@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Bebas+Neue&display=swap');
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #CEF2EA;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+p{
+    font-family:  'Baskervville', serif;;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+.header, .main , .prox{
+    background-color: white;
+}
+
+/*HEADER*/
+.header{
+    text-align: center;
+    padding: 2rem;
+    margin:auto;
+    width: 50rem;
+}
+/*MAIN*/
+.main{
+    text-align: justify;
+    margin: 0 auto;
+    width: 50rem;
+    padding: 1rem 2rem 1rem 2rem;
+}
+.main hr{
+    margin: 1rem auto ;
+    width: 20rem;
+}
+.main img{
+    width: 100%;
+}
+/*PROX*/
+.prox{
+    width: 50rem;
+    padding: 1rem;
+    margin:auto;
+    text-align: center;
+}
+.prox a{
+    color: #5F706D;
+}
